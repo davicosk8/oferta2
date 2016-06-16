@@ -1,0 +1,17 @@
+.cuadroOfertas{
+    border-style:solid;
+    border-width:0.5px;	
+    border-color: #EBEBEB;
+    margin-bottom: 10px;
+    background-color: #FAFAFB;
+}
+
+.cuadroOfertas h3{
+	font-size: 23px;
+	text-align: center;
+}
+
+.cuadroOfertas img{
+	margin: auto;
+	display: block;
+}

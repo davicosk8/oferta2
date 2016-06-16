@@ -1,0 +1,8 @@
+.image-preview {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-color: #a8a8a8;
+  color: #ecf0f1;
+}
