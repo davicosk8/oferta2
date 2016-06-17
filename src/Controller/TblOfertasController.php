@@ -31,11 +31,8 @@ class TblOfertasController extends AppController
     public function IndexLandPAge()
     {
         $this->loadModel('TblCategorias');
-        //$tblCategorias=$this->paginate($this->TblCategorias);
+        $tblCategorias=$this->TblCategorias->find('all');
 
-        $this->paginate = [
-            'contain' => ['TblCategorias']
-        ];
         $tblOfertas = $this->paginate($this->TblOfertas);
 
         $this->set(compact('tblCategorias'));
